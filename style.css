@@ -195,6 +195,11 @@ p {
   font-size: var(--subh1);
   line-height: 7rem;
 }
+
+a:hover {
+  background-color: var(--clr-secondary);
+  border-radius: 0.5rem;
+}
 /* ------------------------------------------------------------------- */
 
 /* HEADER */
@@ -523,9 +528,4 @@ input:focus {
 
 input.search {
   width: 15.5rem;
-}
-
-a:hover {
-  background-color: var(--clr-secondary);
-  border-radius: 0.5rem;
 }
